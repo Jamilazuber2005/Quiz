@@ -1,0 +1,45 @@
+h2{
+    color: aqua;
+    font-size: 60px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Trebuchet MS';
+}
+p{
+    color: antiquewhite;
+    font-size: 40px;
+}
+body{
+    background-color: black;
+}
+article{
+    padding-left: 20%;
+}
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:aliceblue;
+  display: block;
+  width: 100px;
+  height: 100px;
+  
+  transition: width 2s, height 2s, transform 2s;
+
+}
+
+.sidenav a:hover {
+  color:aqua;
+  width: 100px;
+  height: 100px;
+  transform: rotate(360deg);
+}
