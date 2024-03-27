@@ -2,27 +2,20 @@ body{
     background-image: url(background.jpg);
 }
 .name{
-    font-size: 50px;
+    font-size: 100px;
     
 }
 .job{
-    font-size: 30px;
-    
-}
-img{
-    float: right;
-    width: 450px;
-    height: 500px;
-    border-radius: 80%;
-    padding: 20px;
-    
-    
+    font-size: 80px;
 
+    
 }
+
 div.mydata{
-    float: left;
-    padding-top: 30%;
+    float: right;
+    padding-top: 10%;
     padding-left: 18%;
+    color: aqua;
 }
 .sidenav {
     height: 100%;

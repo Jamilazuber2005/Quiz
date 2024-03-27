@@ -43,3 +43,14 @@ article{
   height: 100px;
   transform: rotate(360deg);
 }
+img{
+  float: right;
+  width: 500px;
+  height: 500px;
+  border-radius: 80%;
+  padding: 20px;
+  z-index: -1;
+  object-fit: cover;
+  
+
+}
